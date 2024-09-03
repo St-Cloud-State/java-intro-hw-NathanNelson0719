@@ -1,3 +1,4 @@
+//Nathan Nelson
 import java.io.*;
 import java.util.LinkedList;
 import java.util.Scanner;
@@ -63,7 +64,6 @@ public class MyMain {
         index = find(searchId, list);
         System.out.println((index != -1) ? "Person with ID " + searchId + " found at index " + index
                 : "Person with ID " + searchId + " not found.");
-
         searchId = "103";
         index = find(searchId, list);
         System.out.println((index != -1) ? "Person with ID " + searchId + " found at index " + index
